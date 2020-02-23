@@ -1,5 +1,5 @@
 # OGN-Geo-fencing
-Geo-fancing code for the OGN platform
+Geo-fencing code for the OGN platform
 This code allows you to receive notifications via bot telegram bot when an aircraft connected to the platform OGN (http://wiki.glidernet.org) enters a pre-established area.
 
 
@@ -24,12 +24,12 @@ Change these parts:
         bot_chatID = 'YOUR_ID'
     
     
-    2. if(inRange_square(plane, #minLAT, #maxLat, #minLon, #maxLon, #minAlt, #maxAlt)): #Your cordinate area
+    2. if (inRange_square(plane, #minLAT, #maxLat, #minLon, #maxLon, #minAlt, #maxAlt)): #Your cordinate area
     
     
     
 Step 5:
-Run test_github.py via terminal
+Run test_github.py via terminal/shell
     
  
 
